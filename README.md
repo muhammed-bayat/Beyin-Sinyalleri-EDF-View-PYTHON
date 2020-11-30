@@ -24,3 +24,16 @@ $ conda env update --file environment.yml
 #### To deactivate an active environment, use
 
 #####   $ ```conda deactivate```
+
+
+## WINDOWS
+Download the environment [file](https://raw.githubusercontent.com/mne-tools/mne-python/master/environment.yml)
+
+Open an Anaconda command prompt
+
+Run ```conda install --name base nb_conda_kernels```
+
+cd to the directory where you downloaded the file
+
+Run ``` 
+conda env update --file environment.yml```
