@@ -37,3 +37,17 @@ cd to the directory where you downloaded the file
 
 Run ``` 
 conda env update --file environment.yml```
+
+
+
+### If you see an error like:
+
+```  Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'mne' ```  
+``` 
+This suggests that your environment containing MNE-Python is not active. If you followed the setup for 3D plotting/source analysis (i.e., you installed to a new mne environment instead of the base environment) try running conda activate mne first, and try again. If this works, you might want to set your terminal to automatically activate the mne environment each time you open a terminal:  
+
+ ```  echo conda activate mne >> ~/.bashrc    # for bash shells``` 
+
+ ``` echo conda activate mne >> ~/.zprofile  # for zsh shells``` 
