@@ -1,4 +1,28 @@
-# mneTest
+##MNE COLAB
+
+first ->  ``` !pip install mne```
+
+ ``` from google.colab import drive  ```
+ 
+```google drive files import```
+ 
+ 
+```drive.mount('/gdrive')```
+
+```cd /gdrive/MyDrive/Colab\ Notebooks/sinyaller/beyza.edf```
+
+
+```fname="beyza.edf"```
+
+
+```raw=mne.io.read_raw_edf(fname)```
+
+
+```dir(raw)```
+
+
+
+
 ## MNE-Python
 
 ```sh
