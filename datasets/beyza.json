@@ -1,0 +1,38 @@
+{
+    "Markers": [
+        {
+            "endDatetime": "2020-11-18T11:17:16.528763+03:00",
+            "extras": {
+            },
+            "index": 1,
+            "label": "Eyes Opened",
+            "originalEndDatetime": "2020-11-18T11:17:16.531406+03:00",
+            "originalStartDatetime": "2020-11-18T11:17:01.944086+03:00",
+            "port": "Baseline EmotivPRO",
+            "startDatetime": "2020-11-18T11:17:01.941438+03:00",
+            "type": "interval",
+            "uuid": "8c115944-aa41-4b3c-94fe-7940def816d2",
+            "value": 1
+        },
+        {
+            "endDatetime": "2020-11-18T11:17:37.400127+03:00",
+            "extras": {
+            },
+            "index": 2,
+            "label": "Eyes Closed",
+            "originalEndDatetime": "2020-11-18T11:17:37.402721+03:00",
+            "originalStartDatetime": "2020-11-18T11:17:22.761411+03:00",
+            "port": "Baseline EmotivPRO",
+            "startDatetime": "2020-11-18T11:17:22.759179+03:00",
+            "type": "interval",
+            "uuid": "811f5c6f-f2d6-46f9-9831-90c75b671b8f",
+            "value": 3
+        }
+    ],
+    "cqMode": 0,
+    "exportApp": "com.emotiv.emotivpro",
+    "exportTime": "2020-11-18T11:22:06.695+03:00",
+    "mappings": null,
+    "recordId": "4490131e-1eab-4a55-900b-bf5b06f54035",
+    "user": "ydasdemir"
+}
